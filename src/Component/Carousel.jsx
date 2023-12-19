@@ -231,7 +231,7 @@ export default Radium(function Carousel({ album }) {
 
                                                     <div className="d-flex flex-row justify-content-evenly w-100 py-3" style={{ "position": "relative" }}>
                                                         <button onClick={() => { onDeleteHandler(item.id) }} type="button" className="btn btn-outline-danger"><i className="fa-solid fa-trash"></i></button>
-                                                        <button type="button" data-bs-toggle="collapse" data-bs-target={`#collapseExample_${item.id}`} className="btn btn-outline-dark"><i className="fa-solid fa-music"></i>&nbsp;Modify</button>
+                                                        <button type="button" data-bs-toggle="collapse" data-bs-target={`#collapseExample_${item.id}`} className="btn btn-outline-dark">&nbsp;Modify</button>
 
                                                         <div className="collapse" id={`collapseExample_${item.id}`} style={{ "position": "absolute", "top": "-175%", "zIndex": "5" }}>
                                                             <div className="card card-body" style={{ "width": "100%" }}>

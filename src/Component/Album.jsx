@@ -26,6 +26,7 @@ export default function Album() {
                 const responseJSON = await response.json();
 
                 // Splitting the response data into arrays of 10 albums each
+                
                 for (let i = 0; i < responseJSON.length; i += 10) {
                     let emptyArray = [];
                     emptyArray = responseJSON.slice(i, [i + 10]);
